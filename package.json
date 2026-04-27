@@ -1,16 +1,23 @@
 {
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "production": "NODE_ENV=production npm run build"
   },
   "type": "module",
   "dependencies": {
     "@11ty/eleventy": "^3.1.5",
     "@11ty/eleventy-fetch": "^5.1.2",
+    "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
-    "luxon": "^3.7.2"
+    "cssnano": "^7.1.7",
+    "html-minifier-next": "^4.19.1",
+    "luxon": "^3.7.2",
+    "postcss": "^8.5.12",
+    "sass": "^1.97.1"
   },
   "devDependencies": {
+    "@types/node": "^25.6.0",
     "prettier": "^3.8.3",
     "prettier-plugin-jinja-template": "^2.1.0"
   }

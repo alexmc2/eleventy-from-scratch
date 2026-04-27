@@ -1,4 +1,5 @@
 {
+  "embeddedLanguageFormatting": "off",
   "plugins": ["prettier-plugin-jinja-template"],
   "overrides": [
     {
