@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title }}</title>
+    {% include "partials/meta-info.html" %}
   </head>
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    href="{{ site.url }}/feed.xml"
+  />
   <body>
     {% include "partials/site-head.html" %}
     <main tabindex="-1" id="main-content">

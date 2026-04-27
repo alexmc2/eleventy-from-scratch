@@ -5,6 +5,13 @@
   },
   "type": "module",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.5"
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-fetch": "^5.1.2",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "luxon": "^3.7.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3",
+    "prettier-plugin-jinja-template": "^2.1.0"
   }
 }
